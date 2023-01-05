@@ -1,0 +1,47 @@
+.main-container-rec {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.rec-table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.refresh-button {
+    margin-left: auto;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 1px;
+    border-color: silver;
+    border: 1px solid;
+    border-color: darkgray;
+    padding: 10px;
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+.refresh-button:hover {
+    cursor:pointer;
+    background: rgb(3,1,13);
+    background: linear-gradient(90deg, rgba(3,1,13,1) 0%, rgba(94,97,95,0.9878545168067226) 0%, rgba(151,150,153,1) 100%);
+}
+
+.like-button {
+    margin-left: auto;
+    background-color: #006600;
+    color: white;
+    font-weight: bold;
+    border: 1px;
+    border-color: silver;
+    border: 1px solid;
+    border-color: darkgray;
+    padding: 10px;
+    width: 75%;
+}
+
+.like-button:hover {
+    filter: brightness(1.4);
+    cursor: pointer;
+}

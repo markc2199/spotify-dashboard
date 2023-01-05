@@ -1,0 +1,72 @@
+
+.summary-grid-wrapper {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    place-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    border-bottom: 0.5px solid white;;
+}
+
+.stat-card {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    place-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.dashboard-header {
+    display: flex;
+    list-style: none;
+    height: 8vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 0.5px solid white;
+}
+
+.summary-title {
+    margin-top: auto;
+    margin-left: 2%;
+}
+
+.user-info-div {
+    margin-left: auto;
+}
+
+.user-info {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.user-name {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.top-title {
+    margin: 0;
+    margin-left: 12%;
+    margin-top: 10px;
+}
+
+/* TOP SONGS */
+.dashboard-top-songs {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.songs-title {
+    margin-bottom: 40px;
+}
